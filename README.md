@@ -212,4 +212,3 @@ We report the GPU hour of each step on Nvidia 3090 GPU.
 To visualize the 3D class-agnostic result of one specific scene, run the following command:
 ```bash
   python -m visualize.vis_scene --config scannet --seq_name scene0608_00
-```
