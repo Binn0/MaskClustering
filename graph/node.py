@@ -1,6 +1,6 @@
 import torch
 import open3d as o3d
-
+from IPython import embed
 class Node:
     
     def __init__(self, mask_list, visible_frame, contained_mask, point_ids, node_info, son_node_info):

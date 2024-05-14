@@ -1,4 +1,4 @@
-import open3d as o3d
+import open3d as o3ds
 import numpy as np
 import os
 import cv2

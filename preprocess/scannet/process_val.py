@@ -2,7 +2,7 @@ import os
 from tqdm import tqdm
 import shutil
 
-raw_data_dir = '../../data/scannet/raw/scans'
+raw_data_dir = '../../data/scannetv2/scans'
 target_data_dir = '../../data/scannet/processed'
 split_file_path = '../../splits/scannet.txt'
 

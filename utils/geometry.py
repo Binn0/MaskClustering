@@ -17,7 +17,8 @@ def denoise(pcd):
             mask[labels == i] = False
 
     remain_index = np.where(mask)[0]
-    pcd = pcd.select_by_index(remain_index)
+    # pcd = pcd.select_by_index(remain_index)
+    pcd = pcd.select_down_sample(remain_index)
     
     pcd, index = pcd.remove_statistical_outlier(nb_neighbors=20, std_ratio=2.0)
     remain_index = remain_index[index]
